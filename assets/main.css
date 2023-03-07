@@ -70,4 +70,29 @@
 #exo4--container {
   position: relative;
 }
+
+.exo5 {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.exo5--container--card {
+  margin: 10px 0;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 8px #6e7a7a;
+          box-shadow: 0 0 8px #6e7a7a;
+}
+
+.exo5--container--card--titre {
+  background-color: lightcyan;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.exo5--container--card--content {
+  padding: 15px;
+  background-color: lightcoral;
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */

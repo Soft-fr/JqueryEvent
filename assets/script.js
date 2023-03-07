@@ -74,4 +74,11 @@ $(document).ready(function() {
             $('#nbr3').css('background-color','tomato');
         }
     });
+
+    $(".exo5--container--card--titre").click(function(){
+        $(this).parent(".exo5--container--card").find(".exo5--container--card--content").slideToggle();
+        $(this).parent(".exo5--container--card").prevAll(".exo5--container--card").find(".exo5--container--card--content").slideUp();
+        $(this).parent(".exo5--container--card").nextAll(".exo5--container--card").find(".exo5--container--card--content").slideUp();
+        });
+    
 });

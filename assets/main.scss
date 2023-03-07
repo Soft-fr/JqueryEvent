@@ -74,3 +74,29 @@
         position: relative;
     }
 }
+
+.exo5{
+    max-width:960px;
+    margin: 0 auto;
+    
+    &--container {
+        &--card {
+            margin: 10px 0;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 8px #6e7a7a;
+
+            &--titre {
+                background-color: lightcyan;
+                padding: 10px 15px;
+                cursor: pointer;
+            }
+
+            &--content {
+                padding: 15px ;
+                background-color: lightcoral;
+                display: none;
+            }
+        }
+    }
+}
