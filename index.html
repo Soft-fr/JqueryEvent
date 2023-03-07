@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./assets/script.js"></script>
+    <link rel="stylesheet" href="./assets/main.css">
+    <title>JqueryEvent</title>
+</head>
+<body>
+    <div id="exo1">
+        <button class="click">Click</button>
+        <div id="exo1--container"></div>
+    </div>
+    <div id="exo2">
+        <form action="POST" method="POST">
+            <label for="name">Nom : </label>
+            <input type="text" name="name" id="name">
+            <label for="firstname">Prénom : </label>
+            <input type="text" name="firstname" id="firstname">
+            <label for="date">Âge :</label>
+            <input type="text" name="date" id="date">
+            <input type="submit" id="get" value="Envoyer le formulaire">
+        </form>
+        <div id="exo2--container"></div>
+    </div>
+    <div id="exo3">
+        <label for="afficher">Afficher : </label>
+        <input type="button" name="afficher" id="afficher">
+        <label for="enlever">enlever : </label>
+        <input type="button" name="enlever" id="enlever">
+        <label for="verticale">Déplacer vers la verticale de (en px) : </label>
+        <input type="text" name="verticale" id="verticale">
+        <label for="horizontal">Déplacer vers l'horizotal de (en px) : </label>
+        <input type="text" name="horizontal" id="horizontal">
+        <input type="submit" id="val" value="Envoyer le formulaire">
+        <div id="exo3--container">
+            <div id="exo3--container--tiny"></div>
+        </div>
+    </div>
+    <div id="exo4">
+        <label for="changer">Changer de couleur : </label>
+        <input type="button" name="changer" id="changer">
+        <label for="nbr1">Un nombre de 0 à 255 : </label>
+        <input type="text" name="nbr1" id="nbr1">
+        <label for="nbr2">Un nombre de 0 à 255 : </label>
+        <input type="text" name="nbr2" id="nbr2">
+        <label for="nbr3">Un nombre de 0 à 255 : </label>
+        <input type="text" name="nbr3" id="nbr3">
+        <input type="submit" id="rgbcolor" value="Envoyer le formulaire">
+        <div id="exo4--container"></div>
+    </div>
+    <div id="exo5">
+        <div id="exo5--container">
+            <div id="exo5--container--title">Test</div>
+            <div id="exo5--container--content">Test</div>
+        </div>
+    </div>
+</body>
+</html>
